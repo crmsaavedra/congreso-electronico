@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;display=swap');
+      .text-bold { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+    </style>
+  </defs>
+
+  <g transform="translate(50, 50)">
+    <g stroke="#ffffff" stroke-width="4" fill="none">
+      <ellipse cx="0" cy="0" rx="25" ry="55" />
+      <ellipse cx="0" cy="0" rx="55" ry="25" />
+      <ellipse cx="0" cy="0" rx="25" ry="55" transform="rotate(45)" />
+      <ellipse cx="0" cy="0" rx="25" ry="55" transform="rotate(-45)" />
+    </g>
+
+    <g stroke="#ffb81c" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="0" cy="0" r="60" />
+      <path d="M 0 -60 L 0 -85 M 42 -42 L 63 -63 L 82 -63 M -42 -42 L -57 -57 L -57 -75 M 60 -12 L 87 -12 M 60 18 L 75 18 L 75 39 M 30 52 L 30 78 L 51 78 M -15 58 L -15 84 M -52 30 L -72 30 L -72 51 M -60 -15 L -87 -15" />
+      <path d="M 52 -30 L 72 -30 L 72 -48 M -30 52 L -30 72 L -48 72" />
+    </g>
+
+    <g fill="#ffb81c">
+      <circle cx="0" cy="-85" r="5" />
+      <circle cx="82" cy="-63" r="5" />
+      <circle cx="-57" cy="-75" r="5" />
+      <circle cx="87" cy="-12" r="5" />
+      <circle cx="75" cy="39" r="5" />
+      <circle cx="51" cy="78" r="5" />
+      <circle cx="-15" cy="84" r="5" />
+      <circle cx="-72" cy="51" r="5" />
+      <circle cx="-87" cy="-15" r="5" />
+      <circle cx="72" cy="-48" r="5" />
+      <circle cx="-48" cy="72" r="5" />
+    </g>
+
+    <g transform="translate(0, 0)">
+      <g stroke="#f8f32b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="-12" y="-12" width="24" height="24" rx="3" />
+        <rect x="-2.5" y="-2.5" width="5" height="5" rx="1" fill="#76f7bd" stroke="none" />
+        <path d="M -6 -12 L -6 -20 M 0 -12 L 0 -20 M 6 -12 L 6 -20 M -6 12 L -6 20 M 0 12 L 0 20 M 6 12 L 6 20 M -12 -6 L -20 -6 M -12 0 L -20 0 M -12 6 L -20 6 M 12 -6 L 20 -6 M 12 0 L 20 0 M 12 6 L 20 6" />
+      </g>
+    </g>
+  </g>
+</svg>

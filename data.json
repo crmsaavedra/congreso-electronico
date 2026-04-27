@@ -1,0 +1,298 @@
+{
+  "directiva": [
+    {
+      "nombre": "Cristian M. Saavedra Vásquez",
+      "cargo": "Presidente IEEE RAS UdeC",
+      "organizacion": "IEEE RAS",
+      "iniciales": "CS"
+    },
+    {
+      "nombre": "Directiva en ejercicio 2026",
+      "cargo": "Presidenta CEICE",
+      "organizacion": "Centro de Estudiantes Ing. Civil Electrónica",
+      "iniciales": "CE"
+    }
+  ],
+  "preventas": [
+    {
+      "id": "prevent1",
+      "nombre": "Prevent 1",
+      "fechaInicio": "2026-04-01",
+      "fechaFin": "2026-05-31",
+      "soldout": false,
+      "descuento": "-50% descuento",
+      "precios": {
+        "concursantePaper": 12000,
+        "miembroIEEE": 7000,
+        "mechonUdec": 8000,
+        "estudianteUdec": 10000,
+        "estudianteOtro": 12000,
+        "docenteProfesional": 15000
+      }
+    },
+    {
+      "id": "prevent2",
+      "nombre": "Prevent 2",
+      "fechaInicio": "2026-06-01",
+      "fechaFin": "2026-08-15",
+      "soldout": false,
+      "descuento": "-35% descuento",
+      "precios": {
+        "concursantePaper": 12000,
+        "miembroIEEE": 9000,
+        "mechonUdec": 10000,
+        "estudianteUdec": 13000,
+        "estudianteOtro": 15000,
+        "docenteProfesional": 20000
+      }
+    },
+    {
+      "id": "prevent3",
+      "nombre": "Prevent 3",
+      "fechaInicio": "2026-08-16",
+      "fechaFin": "2026-10-15",
+      "soldout": false,
+      "descuento": "-20% descuento",
+      "precios": {
+        "concursantePaper": 12000,
+        "miembroIEEE": 12000,
+        "mechonUdec": 13000,
+        "estudianteUdec": 16000,
+        "estudianteOtro": 18000,
+        "docenteProfesional": 25000
+      }
+    },
+    {
+      "id": "ventaGeneral",
+      "nombre": "Venta General",
+      "fechaInicio": "2026-10-16",
+      "fechaFin": "2026-11-11",
+      "soldout": false,
+      "descuento": "Precio regular",
+      "precios": {
+        "concursantePaper": null,
+        "miembroIEEE": 15000,
+        "mechonUdec": 16000,
+        "estudianteUdec": 20000,
+        "estudianteOtro": 22000,
+        "docenteProfesional": 30000
+      }
+    }
+  ],
+  "expositores": [
+    {
+      "nombre": "Roberto Muñoz",
+      "titulo": "Dra.",
+      "rol": "Keynote Speaker",
+      "organizacion": "Pontificia Universidad Católica",
+      "iniciales": "RM"
+    },
+    {
+      "nombre": "Luis Hernández",
+      "titulo": "Ing.",
+      "rol": "Industry Expert",
+      "organizacion": "NVIDIA Chile",
+      "iniciales": "LH"
+    },
+    {
+      "nombre": "Carolina Silva",
+      "titulo": "Mg.",
+      "rol": "IEEE Senior Member",
+      "organizacion": "Google Research",
+      "iniciales": "CS"
+    },
+    {
+      "nombre": "José Pérez",
+      "titulo": "Dr.",
+      "rol": "Robotics Researcher",
+      "organizacion": "Universidad de Chile",
+      "iniciales": "JP"
+    },
+    {
+      "nombre": " pending_1",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "pending_organization",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " pending_2",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "pending_organization",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " pending_3",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "pending_organization",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " pending_4",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "pending_organization",
+      "iniciales": "??",
+      "pendiente": true
+    }
+  ],
+  "talleres": [
+    {
+      "nombre": "Elaboración Instrumento Electrónico",
+      "descripcion": "Construye tu propio instrumento desde cero con componentes básicos.",
+      "disponible": true,
+      "icono": "tool"
+    },
+    {
+      "nombre": "Lenguaje C para Robótica",
+      "descripcion": "Programación embebida para microcontroladores y sistemas RAS.",
+      "disponible": true,
+      "icono": "code"
+    },
+    {
+      "nombre": "Matlab para Robótica",
+      "descripcion": "Simulación y análisis de sistemas robóticos con MATLAB.",
+      "disponible": true,
+      "icono": "monitor"
+    },
+    {
+      "nombre": "LaTeX para Publicaciones",
+      "descripcion": "Documentación técnica y papers académicos con LaTeX.",
+      "disponible": true,
+      "icono": "file"
+    },
+    {
+      "nombre": "Soldadura Básica y Avanzada",
+      "descripcion": "Técnicas de soldadura para electrónica.",
+      "disponible": true,
+      "icono": "home"
+    },
+    {
+      "nombre": "Diseño de PCB",
+      "descripcion": "Diseño de placas de circuito impreso con herramientas profesionales.",
+      "disponible": true,
+      "icono": "chip"
+    },
+    {
+      "nombre": "Taller de Innovación IEEE",
+      "descripcion": "Actividades institucionales de la rama IEEE.",
+      "disponible": false,
+      "icono": "star"
+    },
+    {
+      "nombre": "Taller a solicitud del público",
+      "descripcion": "Taller abierto según sugerencias de los asistentes.",
+      "disponible": false,
+      "icono": "message"
+    }
+  ],
+  "horarios": {
+    "dia1": {
+      "fecha": "Miércoles 11",
+      "titulo": "Día 1 - Miércoles 11",
+      "actividades": [
+        { "hora": "08:00 - 09:00", "titulo": "Acreditación y Registro", "descripcion": "Lobby principal - Entrega de kits y credenciales" },
+        { "hora": "09:00 - 09:30", "titulo": "Inauguración Oficial", "descripcion": "Auditorio central - Bienvenida institucional" },
+        { "hora": "09:30 - 11:15", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela A: Electrónica de Potencia y Robótica" },
+        { "hora": "11:15 - 11:45", "titulo": "Coffee Break", "descripcion": "Sala de exposición - Networking" },
+        { "hora": "11:45 - 13:30", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela B: IA Aplicada y Diseño de Circuitos" },
+        { "hora": "13:30 - 15:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
+        { "hora": "15:00 - 18:00", "titulo": "Talleres Prácticos", "descripcion": "Laboratorios equipados - Sesión 1" }
+      ]
+    },
+    "dia2": {
+      "fecha": "Jueves 12",
+      "titulo": "Día 2 - Jueves 12",
+      "actividades": [
+        { "hora": "08:30 - 09:00", "titulo": "Acreditación", "descripcion": "Registro tardío - Entrega de materiales" },
+        { "hora": "09:00 - 11:15", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela C: IoT y Procesamiento de Señales" },
+        { "hora": "11:15 - 11:45", "titulo": "Coffee Break", "descripcion": "Sala de exposición" },
+        { "hora": "11:45 - 13:30", "titulo": "Sesión de Papers", "descripcion": "Stands interactivos - Presentación de trabajos" },
+        { "hora": "13:30 - 15:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
+        { "hora": "15:00 - 17:30", "titulo": "Talleres Prácticos", "descripcion": "Sesión 2 - Herramientas y Software" },
+        { "hora": "20:00", "titulo": "Cena de Clausura", "descripcion": "Restaurant universitario" }
+      ]
+    },
+    "dia3": {
+      "fecha": "Viernes 13",
+      "titulo": "Día 3 - Viernes 13",
+      "actividades": [
+        { "hora": "09:00 - 10:30", "titulo": "Bloque de Charlas Final", "descripcion": "Emprendimiento e Innovación Tecnológica" },
+        { "hora": "10:30 - 11:00", "titulo": "Coffee Break", "descripcion": "Último networking del evento" },
+        { "hora": "11:00 - 12:30", "titulo": "Panel IEEE y Premiación", "descripcion": "Conversatorio con expertos - Entrega de reconocimientos" },
+        { "hora": "12:30 - 14:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
+        { "hora": "14:00 - 17:00", "titulo": "Talleres Finales", "descripcion": "Sesión 3 - Diseño PCB y Soldadura" },
+        { "hora": "17:00 - 18:30", "titulo": "Ceremonia de Clausura", "descripcion": "Auditorio central - Cierre oficial" }
+      ]
+    }
+  },
+  "categoriasAuspicio": [
+    {
+      "nombre": "Platino",
+      "clase": "platinum",
+      "precio": "$1.000.000",
+      "beneficios": [
+        "Reconocimiento oficial como auspiciador",
+        "Logo en sitio web y material promocional",
+        "5 pases de cortesía",
+        "Inclusión de material informativo en carpeta",
+        "3 pendones con logo durante el evento",
+        "Stand físico durante 3 días",
+        "Charla técnica o taller (máx. 45 min)",
+        "Presentación institucional en plenario (máx. 10 min)",
+        "Invitación a actividad de clausura"
+      ]
+    },
+    {
+      "nombre": "Oro",
+      "clase": "gold",
+      "precio": "$800.000",
+      "beneficios": [
+        "Reconocimiento oficial como auspiciador",
+        "Logo en sitio web y material promocional",
+        "4 pases de cortesía",
+        "Inclusión de material informativo en carpeta",
+        "2 pendones con logo durante el evento",
+        "Stand físico durante 2 días",
+        "Charla técnica o taller (elige uno, máx. 45 min)"
+      ]
+    },
+    {
+      "nombre": "Plata",
+      "clase": "silver",
+      "precio": "$600.000",
+      "beneficios": [
+        "Reconocimiento oficial como auspiciador",
+        "Logo en sitio web y material promocional",
+        "3 pases de cortesía",
+        "Inclusión de material informativo en carpeta",
+        "1 pendón con logo durante el evento",
+        "Stand físico durante 1 día"
+      ]
+    },
+    {
+      "nombre": "Bronce",
+      "clase": "bronze",
+      "precio": "$400.000",
+      "beneficios": [
+        "Reconocimiento oficial como auspiciador",
+        "Logo en sitio web y material promocional",
+        "2 pases de cortesía"
+      ]
+    },
+    {
+      "nombre": "Apoyo",
+      "clase": "support",
+      "precio": "Productos y/o servicios",
+      "beneficios": [
+        "Reconocimiento oficial como auspiciador",
+        "1 pase de cortesía"
+      ]
+    }
+  ]
+}
