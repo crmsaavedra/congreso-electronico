@@ -1,16 +1,22 @@
 {
   "directiva": [
     {
-      "nombre": "Cristian M. Saavedra Vásquez",
-      "cargo": "Presidente IEEE RAS UdeC",
+      "nombre": "Cristian Saavedra Vásquez",
+      "cargo": "Presidente Congreso Electrónica",
       "organizacion": "IEEE RAS",
       "iniciales": "CS"
     },
     {
-      "nombre": "Directiva en ejercicio 2026",
-      "cargo": "Presidenta CEICE",
-      "organizacion": "Centro de Estudiantes Ing. Civil Electrónica",
-      "iniciales": "CE"
+      "nombre": "Gonzalo Quilodrán",
+      "cargo": "Secretario Congreso Electrónica",
+      "organizacion": "IEEE RAS",
+      "iniciales": "GQ"
+    },
+    {
+      "nombre": "Angeles Ortega",
+      "cargo": "Tesorera Congreso Electrónica",
+      "organizacion": "Centro de Estudiantres de Electrónica",
+      "iniciales": "AO"
     }
   ],
   "preventas": [
