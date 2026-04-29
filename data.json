@@ -206,38 +206,118 @@
       "fecha": "Miércoles 11",
       "titulo": "Día 1 - Miércoles 11",
       "actividades": [
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        }
       ]
     },
     "dia2": {
       "fecha": "Jueves 12",
       "titulo": "Día 2 - Jueves 12",
       "actividades": [
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        }
       ]
     },
     "dia3": {
       "fecha": "Viernes 13",
       "titulo": "Día 3 - Viernes 13",
       "actividades": [
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
-        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        },
+        {
+          "hora": "Por definir",
+          "titulo": "Por definir",
+          "descripcion": "Por definir"
+        }
       ]
     }
   },
