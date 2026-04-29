@@ -2398,55 +2398,8 @@
                 <p class="section-subtitle">Tres días llenos de aprendizaje, networking y innovación tecnológica</p>
             </div>
 
-            <div class="program-structure">
-                <div class="program-day reveal" style="transition-delay: 0.1s;">
-                    <div class="day-header">
-                        <div class="day-number">D1</div>
-                        <div class="day-date">Miércoles 11</div>
-                    </div>
-                    <ul class="day-schedule">
-                        <li><span class="time">08:00</span> Acreditación</li>
-                        <li><span class="time">09:00</span> Inauguración</li>
-                        <li><span class="time">09:30</span> Bloque Charlas (3x45min)</li>
-                        <li><span class="time">11:15</span> Coffee Break</li>
-                        <li><span class="time">11:45</span> Bloque Charlas (3x45min)</li>
-                        <li><span class="time">13:30</span> Almuerzo</li>
-                        <li><span class="time">15:00</span> Talleres Paralelos</li>
-                        <li><span class="time">18:00</span> Exhibición Tecnológica</li>
-                    </ul>
-                </div>
-                <div class="program-day reveal" style="transition-delay: 0.2s;">
-                    <div class="day-header">
-                        <div class="day-number">D2</div>
-                        <div class="day-date">Jueves 12</div>
-                    </div>
-                    <ul class="day-schedule">
-                        <li><span class="time">08:30</span> Acreditación</li>
-                        <li><span class="time">09:00</span> Bloque Charlas (3x45min)</li>
-                        <li><span class="time">11:15</span> Coffee Break</li>
-                        <li><span class="time">11:45</span> Bloque Charlas (3x45min)</li>
-                        <li><span class="time">13:30</span> Almuerzo</li>
-                        <li><span class="time">15:00</span> Presentación Papers</li>
-                        <li><span class="time">17:30</span> Networking</li>
-                        <li><span class="time">20:00</span> Cena de Clausura</li>
-                    </ul>
-                </div>
-                <div class="program-day reveal" style="transition-delay: 0.3s;">
-                    <div class="day-header">
-                        <div class="day-number">D3</div>
-                        <div class="day-date">Viernes 13</div>
-                    </div>
-                    <ul class="day-schedule">
-                        <li><span class="time">09:00</span> Bloque Charlas Final</li>
-                        <li><span class="time">10:30</span> Coffee Break</li>
-                        <li><span class="time">11:00</span> Panel IEEE</li>
-                        <li><span class="time">12:30</span> Premiación Papers</li>
-                        <li><span class="time">13:00</span> Almuerzo</li>
-                        <li><span class="time">14:30</span> Talleres Prácticos</li>
-                        <li><span class="time">17:00</span> Ceremonia Cierre</li>
-                        <li><span class="time">18:30</span> Celebración</li>
-                    </ul>
-                </div>
+            <div class="program-structure" id="programStructure">
+                <!-- Dynamic content from JSON -->
             </div>
         </div>
     </section>
@@ -3428,6 +3381,7 @@
                 initializePricing(data.preventas);
                 initializeSponsors(data.categoriasAuspicio);
                 initializeSchedule(data.horarios);
+                initializeProgramStructure(data.horarios);
             } catch (error) {
                 console.error('Error loading congress data:', error);
             }
@@ -3584,11 +3538,15 @@
 
         // Initialize Schedule from JSON
         function initializeSchedule(horarios) {
-            const days = ['day1', 'day2', 'day3'];
+            const dayMapping = [
+                { htmlId: 'day1', jsonKey: 'dia1' },
+                { htmlId: 'day2', jsonKey: 'dia2' },
+                { htmlId: 'day3', jsonKey: 'dia3' }
+            ];
 
-            days.forEach((dayId, index) => {
-                const dayData = horarios[dayId];
-                const container = document.getElementById(dayId);
+            dayMapping.forEach(({ htmlId, jsonKey }, index) => {
+                const dayData = horarios[jsonKey];
+                const container = document.getElementById(htmlId);
                 if (!container || !dayData) return;
 
                 // Update tab text
@@ -3611,6 +3569,37 @@
 
                 grid.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
             });
+        }
+
+        // Initialize Program Structure from JSON
+        function initializeProgramStructure(horarios) {
+            const container = document.getElementById('programStructure');
+            if (!container) return;
+
+            const dayKeys = ['dia1', 'dia2', 'dia3'];
+
+            container.innerHTML = dayKeys.map((key, index) => {
+                const dayData = horarios[key];
+                if (!dayData) return '';
+
+                const activitiesList = dayData.actividades.map(act => 
+                    `<li><span class="time">${act.hora}</span> ${act.titulo}</li>`
+                ).join('');
+
+                return `
+                    <div class="program-day reveal" style="transition-delay: ${(index + 1) * 0.1}s;">
+                        <div class="day-header">
+                            <div class="day-number">D${index + 1}</div>
+                            <div class="day-date">${dayData.fecha}</div>
+                        </div>
+                        <ul class="day-schedule">
+                            ${activitiesList}
+                        </ul>
+                    </div>
+                `;
+            }).join('');
+
+            container.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
         }
 
         // Load data on page load
