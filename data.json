@@ -87,62 +87,66 @@
   ],
   "expositores": [
     {
-      "nombre": "Roberto Muñoz",
-      "titulo": "Dra.",
-      "rol": "Keynote Speaker",
-      "organizacion": "Pontificia Universidad Católica",
-      "iniciales": "RM"
-    },
-    {
-      "nombre": "Luis Hernández",
-      "titulo": "Ing.",
-      "rol": "Industry Expert",
-      "organizacion": "NVIDIA Chile",
-      "iniciales": "LH"
-    },
-    {
-      "nombre": "Carolina Silva",
-      "titulo": "Mg.",
-      "rol": "IEEE Senior Member",
-      "organizacion": "Google Research",
-      "iniciales": "CS"
-    },
-    {
-      "nombre": "José Pérez",
-      "titulo": "Dr.",
-      "rol": "Robotics Researcher",
-      "organizacion": "Universidad de Chile",
-      "iniciales": "JP"
-    },
-    {
-      "nombre": " pending_1",
+      "nombre": " Por confirmar",
       "titulo": "",
       "rol": "Por confirmar",
-      "organizacion": "pending_organization",
+      "organizacion": "-",
       "iniciales": "??",
       "pendiente": true
     },
     {
-      "nombre": " pending_2",
+      "nombre": " Por confirmar",
       "titulo": "",
       "rol": "Por confirmar",
-      "organizacion": "pending_organization",
+      "organizacion": "-",
       "iniciales": "??",
       "pendiente": true
     },
     {
-      "nombre": " pending_3",
+      "nombre": " Por confirmar",
       "titulo": "",
       "rol": "Por confirmar",
-      "organizacion": "pending_organization",
+      "organizacion": "-",
       "iniciales": "??",
       "pendiente": true
     },
     {
-      "nombre": " pending_4",
+      "nombre": " Por confirmar",
       "titulo": "",
       "rol": "Por confirmar",
-      "organizacion": "pending_organization",
+      "organizacion": "-",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " Por confirmar",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "-",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " Por confirmar",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "-",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " Por confirmar",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "-",
+      "iniciales": "??",
+      "pendiente": true
+    },
+    {
+      "nombre": " Por confirmar",
+      "titulo": "",
+      "rol": "Por confirmar",
+      "organizacion": "-",
       "iniciales": "??",
       "pendiente": true
     }
@@ -151,47 +155,47 @@
     {
       "nombre": "Elaboración Instrumento Electrónico",
       "descripcion": "Construye tu propio instrumento desde cero con componentes básicos.",
-      "disponible": true,
+      "disponible": false,
       "icono": "tool"
     },
     {
       "nombre": "Lenguaje C para Robótica",
       "descripcion": "Programación embebida para microcontroladores y sistemas RAS.",
-      "disponible": true,
+      "disponible": false,
       "icono": "code"
     },
     {
-      "nombre": "Matlab para Robótica",
+      "nombre": "Matlab",
       "descripcion": "Simulación y análisis de sistemas robóticos con MATLAB.",
-      "disponible": true,
+      "disponible": false,
       "icono": "monitor"
     },
     {
       "nombre": "LaTeX para Publicaciones",
       "descripcion": "Documentación técnica y papers académicos con LaTeX.",
-      "disponible": true,
+      "disponible": false,
       "icono": "file"
     },
     {
       "nombre": "Soldadura Básica y Avanzada",
       "descripcion": "Técnicas de soldadura para electrónica.",
-      "disponible": true,
+      "disponible": false,
       "icono": "home"
     },
     {
       "nombre": "Diseño de PCB",
       "descripcion": "Diseño de placas de circuito impreso con herramientas profesionales.",
-      "disponible": true,
+      "disponible": false,
       "icono": "chip"
     },
     {
-      "nombre": "Taller de Innovación IEEE",
+      "nombre": "Taller de Innovación",
       "descripcion": "Actividades institucionales de la rama IEEE.",
       "disponible": false,
       "icono": "star"
     },
     {
-      "nombre": "Taller a solicitud del público",
+      "nombre": "Taller de Arduino",
       "descripcion": "Taller abierto según sugerencias de los asistentes.",
       "disponible": false,
       "icono": "message"
@@ -202,38 +206,38 @@
       "fecha": "Miércoles 11",
       "titulo": "Día 1 - Miércoles 11",
       "actividades": [
-        { "hora": "08:00 - 09:00", "titulo": "Acreditación y Registro", "descripcion": "Lobby principal - Entrega de kits y credenciales" },
-        { "hora": "09:00 - 09:30", "titulo": "Inauguración Oficial", "descripcion": "Auditorio central - Bienvenida institucional" },
-        { "hora": "09:30 - 11:15", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela A: Electrónica de Potencia y Robótica" },
-        { "hora": "11:15 - 11:45", "titulo": "Coffee Break", "descripcion": "Sala de exposición - Networking" },
-        { "hora": "11:45 - 13:30", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela B: IA Aplicada y Diseño de Circuitos" },
-        { "hora": "13:30 - 15:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
-        { "hora": "15:00 - 18:00", "titulo": "Talleres Prácticos", "descripcion": "Laboratorios equipados - Sesión 1" }
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
       ]
     },
     "dia2": {
       "fecha": "Jueves 12",
       "titulo": "Día 2 - Jueves 12",
       "actividades": [
-        { "hora": "08:30 - 09:00", "titulo": "Acreditación", "descripcion": "Registro tardío - Entrega de materiales" },
-        { "hora": "09:00 - 11:15", "titulo": "Bloque de Charlas Técnicas (3x45min)", "descripcion": "Sesión paralela C: IoT y Procesamiento de Señales" },
-        { "hora": "11:15 - 11:45", "titulo": "Coffee Break", "descripcion": "Sala de exposición" },
-        { "hora": "11:45 - 13:30", "titulo": "Sesión de Papers", "descripcion": "Stands interactivos - Presentación de trabajos" },
-        { "hora": "13:30 - 15:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
-        { "hora": "15:00 - 17:30", "titulo": "Talleres Prácticos", "descripcion": "Sesión 2 - Herramientas y Software" },
-        { "hora": "20:00", "titulo": "Cena de Clausura", "descripcion": "Restaurant universitario" }
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
       ]
     },
     "dia3": {
       "fecha": "Viernes 13",
       "titulo": "Día 3 - Viernes 13",
       "actividades": [
-        { "hora": "09:00 - 10:30", "titulo": "Bloque de Charlas Final", "descripcion": "Emprendimiento e Innovación Tecnológica" },
-        { "hora": "10:30 - 11:00", "titulo": "Coffee Break", "descripcion": "Último networking del evento" },
-        { "hora": "11:00 - 12:30", "titulo": "Panel IEEE y Premiación", "descripcion": "Conversatorio con expertos - Entrega de reconocimientos" },
-        { "hora": "12:30 - 14:00", "titulo": "Almuerzo", "descripcion": "Cafetería universitaria" },
-        { "hora": "14:00 - 17:00", "titulo": "Talleres Finales", "descripcion": "Sesión 3 - Diseño PCB y Soldadura" },
-        { "hora": "17:00 - 18:30", "titulo": "Ceremonia de Clausura", "descripcion": "Auditorio central - Cierre oficial" }
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" },
+        { "hora": "Por definir", "titulo": "Por definir", "descripcion": "Por definir" }
       ]
     }
   },
