@@ -1,22 +1,41 @@
 {
   "directiva": [
     {
-      "nombre": "Cristian Saavedra Vásquez",
-      "cargo": "Presidente Congreso Electrónica",
-      "organizacion": "IEEE RAS",
-      "iniciales": "CS"
+      "nombre": "Mario Rubén Medina",
+      "cargo": "Jefe de Carrera Ingeniería Civil Electrónica UdeC",
+      "iniciales" : "MM",
+      "foto":"images/Mario-Medina-C.png",
+      "bio": {
+      "lineasInvestigacion": [
+        "Sistemas computacionales"
+      ],
+      "asignaturas": [
+        "Programación orientada a objetos",
+        "Laboratorio de sistemas digitales",
+        "Programación de aplicaciones para dispositivos móviles",
+        "Computación paralela"
+      ]
+    }
     },
     {
-      "nombre": "Gonzalo Quilodrán",
-      "cargo": "Secretario Congreso Electrónica",
-      "organizacion": "IEEE RAS",
-      "iniciales": "GQ"
-    },
-    {
-      "nombre": "Angeles Ortega",
-      "cargo": "Tesorera Congreso Electrónica",
-      "organizacion": "Centro de Estudiantres de Electrónica",
-      "iniciales": "AO"
+      "nombre": "Julio Godoy del Campo",
+      "cargo": "Profesor advisor IEEE RAS UdeC",
+      "iniciales" : "JG",
+      "foto":"images/Julio-Godoy.png",
+      "bio": {
+      "lineasInvestigacion": [
+        "Inteligencia Artificial",
+        "Sistemas Multi Agente",
+        "Robótica",
+        "Aprendizaje por refuerzo",
+        "Inteligencia Artificial"
+      ],
+      "asignaturas": [
+        "Tópicos en Inteligencia Artificial",
+        "Taller de Programación de Robots",
+        "Inteligencia Artificial"
+      ]
+    }    
     }
   ],
   "preventas": [
@@ -207,19 +226,19 @@
       "titulo": "Día 1 - Miércoles 11",
       "actividades": [
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:00 - 09:30",
+          "titulo": "Inauguración",
+          "descripcion": "Apertura por Miguel Figueroa y Julio Godoy"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:15 - 10:45",
+          "titulo": "Charla 1",
+          "descripcion": "Miguel Figueroa, profesor titular UdeC"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "11:15 - 11:45",
+          "titulo": "Charla 2",
+          "descripcion": "Álvaro Alarcón, Director de Escuela de Ingeniería Civil en Automatización UBB"
         },
         {
           "hora": "Por definir",
@@ -321,6 +340,44 @@
       ]
     }
   },
+  "comisiones": [
+      {
+        "nombre": "Dir",
+        "miembros": [
+          {
+            "nombre": "Cristian Saavedra Vásquez",
+            "cargo": "Presidente Congreso Electrónica",
+            "organizacion": "IEEE RAS",
+            "iniciales": "CS"
+          },
+          {
+            "nombre": "Gonzalo Quilodrán",
+            "cargo": "Secretario Congreso Electrónica",
+            "organizacion": "IEEE RAS",
+            "iniciales": "GQ"
+          },
+          {
+            "nombre": "Angeles Ortega",
+            "cargo": "Tesorera Congreso Electrónica",
+            "organizacion": "Centro de Estudiantes de Electrónica",
+            "iniciales": "AO"
+          }
+        ]
+      },
+      {
+        "nombre": "Finanzas",
+        "miembros": []
+      },
+      {
+        "nombre": "Captacion",
+        "miembros" : []
+      },
+      {
+        "nombre": "rrss",
+        "miembros" : []
+      }
+    ],
+
   "categoriasAuspicio": [
     {
       "nombre": "Platino",
