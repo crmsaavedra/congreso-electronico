@@ -1664,6 +1664,10 @@
             width: 120px;
             height: 120px;
             margin: 0 auto 25px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: linear-gradient(135deg, var(--blue), var(--navy-light));
             border-radius: 50%;
             display: flex;
@@ -1674,6 +1678,12 @@
             font-weight: 700;
             color: var(--gold);
             position: relative;
+        }
+        .directive-avatar img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;     
+          object-position: top;    
         }
 
         .directive-avatar::after {
@@ -2160,6 +2170,57 @@
         [data-theme="light"] .theme-toggle svg {
             fill: var(--white);
         }
+        .directive-flip-container {
+          perspective: 1500px;
+          min-height: 320px;
+      }
+
+      .directive-flip-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          min-height: 320px;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+      }
+
+      .directive-flip-container:hover .directive-flip-inner {
+          transform: rotateY(180deg);
+      }
+
+      .directive-front, .directive-back {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          min-height: 320px;
+          backface-visibility: hidden;
+          border-radius: 24px;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+      }
+
+      .directive-back {
+          transform: rotateY(180deg);
+          overflow-y: auto;
+      }
+
+      .directive-back ul {
+          text-align: left;
+          margin: 0 0 0.75rem 1.1rem;
+          padding: 0;
+          font-size: 0.85rem;
+      }
+
+      .directive-back .tooltip-titulo {
+          font-weight: 600;
+          color: var(--color-accent, #f5a623); /* usa tu variable de acento si tienes una definida */
+          margin-bottom: 0.25rem;
+}
     </style>
 </head>
 <body>
@@ -2206,6 +2267,7 @@
                     <li><a href="#workshops">Talleres</a></li>
                     <li><a href="#pricing">Precios</a></li>
                     <li><a href="#sponsors">Auspicios</a></li>
+                    <li><a href="#Comisiones">Comisiones</a></li>
                 </ul>
                 <div class="hamburger" id="hamburger">
                     <span></span>
@@ -2228,6 +2290,7 @@
         <a href="#workshops" onclick="closeMobileMenu()">Talleres</a>
         <a href="#pricing" onclick="closeMobileMenu()">Precios</a>
         <a href="#sponsors" onclick="closeMobileMenu()">Auspicios</a>
+        <a href="#Comisiones" onclick="closeMobileMenu()">Comisiones</a>
     </nav>
 
     <!-- Hero Section -->
@@ -3393,26 +3456,42 @@
             if (!grid) return;
 
             grid.innerHTML = directiva.map((member, index) => `
-                <div class="directive-card reveal" style="transition-delay: ${index * 0.1}s;">
-                    <div class="directive-avatar">${member.iniciales}</div>
-                    <h3>${member.nombre}</h3>
-                    <p class="directive-role">${member.cargo}</p>
-                    <p class="directive-org">${member.organizacion}</p>
-                    <div class="directive-social">
-                        <a href="#" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="2" width="20" height="20" rx="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                            </svg>
-                        </a>
-                        <a href="#" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                                <rect x="2" y="9" width="4" height="12"/>
-                                <circle cx="4" cy="4" r="2"/>
-                            </svg>
-                        </a>
+                <div class="directive-flip-container reveal" style="transition-delay: ${index * 0.1}s;">
+                    <div class="directive-flip-inner">
+
+                        <div class="directive-front directive-card">
+                            <div class="directive-avatar">${member.foto ? `<img src="${member.foto}" alt="${member.nombre}">` : member.iniciales}</div>
+                            <h3>${member.nombre}</h3>
+                            <p class="directive-role">${member.cargo}</p>
+                            <div class="directive-social">
+                                <a href="#" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5"/>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                        <rect x="2" y="9" width="4" height="12"/>
+                                        <circle cx="4" cy="4" r="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="directive-back directive-card">
+                            ${member.bio && member.bio.lineasInvestigacion && member.bio.lineasInvestigacion.length ? `
+                                <p class="tooltip-titulo">Líneas de investigación</p>
+                                <ul>${member.bio.lineasInvestigacion.map(l => `<li>${l}</li>`).join('')}</ul>
+                            ` : ''}
+                            ${member.asignaturas && member.asignaturas.length ? `
+                                <p class="tooltip-titulo">Asignaturas</p>
+                                <ul>${member.asignaturas.map(a => `<li>${a}</li>`).join('')}</ul>
+                            ` : ''}
+                        </div>
+
                     </div>
                 </div>
             `).join('');
