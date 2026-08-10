@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congreso Electrónico 2026 | Universidad de Concepción</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo-claro.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -25,24 +26,6 @@
             --background: #0D1520;
             --section-alt-bg: #1E2A3A;
         }
-
-        [data-theme="light"] {
-            --navy: #F5F7FA;
-            --navy-light: #FFFFFF;
-            --blue: #0050D6;
-            --blue-light: #4A90D9;
-            --gold: #FFB81C;
-            --gold-light: #FFD666;
-            --white: #0D1520;
-            --gray: #6B7280;
-            --glass: rgba(0, 0, 0, 0.05);
-            --glass-border: rgba(0, 0, 0, 0.1);
-            --text-primary: #0D1520;
-            --text-secondary: #6B7280;
-            --background: #F5F7FA;
-            --section-alt-bg: #FFFFFF;
-        }
-
         * {
             margin: 0;
             padding: 0;
@@ -2225,18 +2208,6 @@
     </style>
 </head>
 <body>
-    <!-- Theme Toggle Button -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
-        <!-- Sun Icon (for light mode) -->
-        <svg class="sun-icon" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="5"/>
-            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-        </svg>
-        <!-- Moon Icon (for dark mode) -->
-        <svg class="moon-icon" viewBox="0 0 24 24">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-        </svg>
-    </button>
 
     <!-- Preloader -->
     <div class="preloader" id="preloader">
@@ -3726,31 +3697,7 @@
         document.addEventListener('DOMContentLoaded', loadCongressData);
 
         // ==========================================
-        // Theme Toggle Functionality
-        // ==========================================
 
-        const themeToggle = document.getElementById('themeToggle');
-        const html = document.documentElement;
-
-        // Check for saved theme preference or default to dark
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        if (savedTheme === 'light') {
-            html.setAttribute('data-theme', 'light');
-        }
-
-        // Toggle theme on button click
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = html.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-            if (newTheme === 'light') {
-                html.setAttribute('data-theme', 'light');
-                localStorage.setItem('theme', 'light');
-            } else {
-                html.removeAttribute('data-theme');
-                localStorage.setItem('theme', 'dark');
-            }
-        });
     </script>
 
 </body>

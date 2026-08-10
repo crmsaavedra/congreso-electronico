@@ -1,40 +1,33 @@
 {
   "directiva": [
     {
-      "nombre": "Mario Rubén Medina",
-      "cargo": "Jefe de Carrera Ingeniería Civil Electrónica UdeC",
-      "iniciales": "MM",
-      "foto": "images/Mario-Medina-C.png",
+      "nombre": "Cristian Saavedra",
+      "cargo": "Presidente",
+      "iniciales": "CS",
+      "foto": "",
       "bio": {
-        "lineasInvestigacion": [
-          "Sistemas computacionales"
-        ],
-        "asignaturas": [
-          "Programación orientada a objetos",
-          "Laboratorio de sistemas digitales",
-          "Programación de aplicaciones para dispositivos móviles",
-          "Computación paralela"
-        ]
+        "lineasInvestigacion": [],
+        "asignaturas": []
       }
     },
     {
-      "nombre": "Julio Godoy del Campo",
-      "cargo": "Profesor advisor IEEE RAS UdeC",
-      "iniciales": "JG",
-      "foto": "images/Julio-Godoy.png",
+      "nombre": "Valentina Leviniere",
+      "cargo": "Vice-presidenta",
+      "iniciales": "VL",
+      "foto": "",
       "bio": {
-        "lineasInvestigacion": [
-          "Inteligencia Artificial",
-          "Sistemas Multi Agente",
-          "Robótica",
-          "Aprendizaje por refuerzo",
-          "Inteligencia Artificial"
-        ],
-        "asignaturas": [
-          "Tópicos en Inteligencia Artificial",
-          "Taller de Programación de Robots",
-          "Inteligencia Artificial"
-        ]
+        "lineasInvestigacion": [],
+        "asignaturas": []
+      }
+    },
+    {
+      "nombre": "Felipe San Martín",
+      "cargo": "Tesorero",
+      "iniciales": "FS",
+      "foto": "",
+      "bio": {
+        "lineasInvestigacion": [],
+        "asignaturas": []
       }
     }
   ],
