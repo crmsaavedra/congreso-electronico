@@ -2376,7 +2376,7 @@
                         <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                     </svg>
-                    <div class="stat-number" data-target="300">0</div>
+                    <div class="stat-number" data-target="250">0</div>
                     <div class="stat-label">Asistentes esperados</div>
                 </div>
                 <div class="stat-card reveal" style="transition-delay: 0.2s;">
@@ -2401,7 +2401,7 @@
                     <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                     </svg>
-                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-number" data-target="10">0</div>
                     <div class="stat-label">Charlas técnicas</div>
                 </div>
             </div>
@@ -3452,15 +3452,9 @@
                         <div class="directive-avatar">${member.foto ? `<img src="${member.foto}" alt="${member.nombre}">` : member.iniciales}</div>
                         <h3>${member.nombre}</h3>
                         <p class="directive-role">${member.cargo}</p>
+                        ${member.linkedin ? `
                         <div class="directive-social">
-                            <a href="#" aria-label="Instagram">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <rect x="2" y="2" width="20" height="20" rx="5"/>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                                </svg>
-                            </a>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="${member.linkedin}" aria-label="LinkedIn" target="_blank">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                                     <rect x="2" y="9" width="4" height="12"/>
@@ -3468,6 +3462,7 @@
                                 </svg>
                             </a>
                         </div>
+                        ` : ''}
                     </div>
                 </div>`;
                 if (index === 1) {

@@ -15,7 +15,8 @@
           "Programación de aplicaciones para dispositivos móviles",
           "Computación paralela"
         ]
-      }
+      },
+      "linkedin": null
     },
     {
       "nombre": "Julio Godoy del Campo",
@@ -34,7 +35,8 @@
           "Taller de Programación de Robots",
           "Inteligencia Artificial"
         ]
-      }
+      },
+      "linkedin": "https://www.linkedin.com/in/julio-godoy-del-campo-13a79123/"
     },
     {
       "nombre": "Cristian Saavedra",
@@ -44,7 +46,8 @@
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
-      }
+      },
+      "linkedin": "https://www.linkedin.com/in/cristian-saavedra-vasquez/"
     },
     {
       "nombre": "Valentina Leviniere",
@@ -54,7 +57,8 @@
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
-      }
+      },
+      "linkedin": "https://www.linkedin.com/in/valentina-almendra-leviniere-huenchucheo-411a02409/"
     },
     {
       "nombre": "Felipe San Martín",
@@ -64,7 +68,8 @@
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
-      }
+      },
+      "linkedin": "https://www.linkedin.com/in/felipe-san-martin-112777415/"
     }
   ],
   "preventas": [
