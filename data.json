@@ -3,39 +3,39 @@
     {
       "nombre": "Mario Rubén Medina",
       "cargo": "Jefe de Carrera Ingeniería Civil Electrónica UdeC",
-      "iniciales" : "MM",
-      "foto":"images/Mario-Medina-C.png",
+      "iniciales": "MM",
+      "foto": "images/Mario-Medina-C.png",
       "bio": {
-      "lineasInvestigacion": [
-        "Sistemas computacionales"
-      ],
-      "asignaturas": [
-        "Programación orientada a objetos",
-        "Laboratorio de sistemas digitales",
-        "Programación de aplicaciones para dispositivos móviles",
-        "Computación paralela"
-      ]
-    }
+        "lineasInvestigacion": [
+          "Sistemas computacionales"
+        ],
+        "asignaturas": [
+          "Programación orientada a objetos",
+          "Laboratorio de sistemas digitales",
+          "Programación de aplicaciones para dispositivos móviles",
+          "Computación paralela"
+        ]
+      }
     },
     {
       "nombre": "Julio Godoy del Campo",
       "cargo": "Profesor advisor IEEE RAS UdeC",
-      "iniciales" : "JG",
-      "foto":"images/Julio-Godoy.png",
+      "iniciales": "JG",
+      "foto": "images/Julio-Godoy.png",
       "bio": {
-      "lineasInvestigacion": [
-        "Inteligencia Artificial",
-        "Sistemas Multi Agente",
-        "Robótica",
-        "Aprendizaje por refuerzo",
-        "Inteligencia Artificial"
-      ],
-      "asignaturas": [
-        "Tópicos en Inteligencia Artificial",
-        "Taller de Programación de Robots",
-        "Inteligencia Artificial"
-      ]
-    }    
+        "lineasInvestigacion": [
+          "Inteligencia Artificial",
+          "Sistemas Multi Agente",
+          "Robótica",
+          "Aprendizaje por refuerzo",
+          "Inteligencia Artificial"
+        ],
+        "asignaturas": [
+          "Tópicos en Inteligencia Artificial",
+          "Taller de Programación de Robots",
+          "Inteligencia Artificial"
+        ]
+      }
     }
   ],
   "preventas": [
@@ -58,6 +58,7 @@
     {
       "id": "prevent2",
       "nombre": "Prevent 2",
+      "link": "https://forms.gle/8YmM9SnHMNgf47hF7",
       "fechaInicio": "2026-06-01",
       "fechaFin": "2026-08-15",
       "soldout": false,
@@ -65,7 +66,7 @@
       "precios": {
         "concursantePaper": 12000,
         "miembroIEEE": 9000,
-        "mechonUdec": 10000,
+        "mechonUdec": 12000,
         "estudianteUdec": 13000,
         "estudianteOtro": 15000,
         "docenteProfesional": 20000
@@ -81,7 +82,7 @@
       "precios": {
         "concursantePaper": 12000,
         "miembroIEEE": 12000,
-        "mechonUdec": 13000,
+        "mechonUdec": 14000,
         "estudianteUdec": 16000,
         "estudianteOtro": 18000,
         "docenteProfesional": 25000
@@ -97,76 +98,92 @@
       "precios": {
         "concursantePaper": null,
         "miembroIEEE": 15000,
-        "mechonUdec": 16000,
-        "estudianteUdec": 20000,
+        "mechonUdec": 15000,
+        "estudianteUdec": 18000,
         "estudianteOtro": 22000,
-        "docenteProfesional": 30000
+        "docenteProfesional": 25000
       }
     }
   ],
   "expositores": [
     {
-      "nombre": " Por confirmar",
+      "nombre": "Miguel Figueroa",
       "titulo": "",
-      "rol": "Por confirmar",
+      "rol": "Profesor Titular (Día 1)",
+      "organizacion": "Departamento Ingeniería Eléctrica - UdeC",
+      "iniciales": "MF",
+      "pendiente": false
+    },
+    {
+      "nombre": "Álvaro Alarcón",
+      "titulo": "",
+      "rol": "Director de Escuela Ing. Civil en Automatización (Día 1)",
+      "organizacion": "Universidad del Bío-Bío (UBB)",
+      "iniciales": "AA",
+      "pendiente": false
+    },
+    {
+      "nombre": "Joel Fuentes",
+      "titulo": "",
+      "rol": "Senior Compiler Engineer (Día 2)",
+      "organizacion": "Intel Corporation",
+      "iniciales": "JF",
+      "pendiente": false
+    },
+    {
+      "nombre": "Santiago Quinsasamin",
+      "titulo": "",
+      "rol": "Analista de Sistemas de Proyección y Tecnología de Cine (Día 2)",
       "organizacion": "-",
-      "iniciales": "??",
+      "iniciales": "SQ",
+      "pendiente": false
+    },
+    {
+      "nombre": "Carlos Galvéz",
+      "titulo": "",
+      "rol": "Ingeniero de Operación y Mantenimiento (Día 2)",
+      "organizacion": "EBCO",
+      "iniciales": "CG",
+      "pendiente": false
+    },
+    {
+      "nombre": "Lautaro Salazar",
+      "titulo": "",
+      "rol": "Profesor Titular (Día 2)",
+      "organizacion": "Departamento Ingeniería Eléctrica - UdeC",
+      "iniciales": "LS",
+      "pendiente": false
+    },
+    {
+      "nombre": "Próximamente",
+      "titulo": "",
+      "rol": "Charla por confirmar",
+      "organizacion": "-",
+      "iniciales": "?",
       "pendiente": true
     },
     {
-      "nombre": " Por confirmar",
+      "nombre": "Próximamente",
       "titulo": "",
-      "rol": "Por confirmar",
+      "rol": "Charla por confirmar",
       "organizacion": "-",
-      "iniciales": "??",
+      "iniciales": "?",
       "pendiente": true
     },
     {
-      "nombre": " Por confirmar",
+      "nombre": "Próximamente",
       "titulo": "",
-      "rol": "Por confirmar",
+      "rol": "Charla por confirmar",
       "organizacion": "-",
-      "iniciales": "??",
+      "iniciales": "?",
       "pendiente": true
     },
     {
-      "nombre": " Por confirmar",
+      "nombre": "Próximamente",
       "titulo": "",
-      "rol": "Por confirmar",
+      "rol": "Charla por confirmar",
       "organizacion": "-",
-      "iniciales": "??",
-      "pendiente": true
-    },
-    {
-      "nombre": " Por confirmar",
-      "titulo": "",
-      "rol": "Por confirmar",
-      "organizacion": "-",
-      "iniciales": "??",
-      "pendiente": true
-    },
-    {
-      "nombre": " Por confirmar",
-      "titulo": "",
-      "rol": "Por confirmar",
-      "organizacion": "-",
-      "iniciales": "??",
-      "pendiente": true
-    },
-    {
-      "nombre": " Por confirmar",
-      "titulo": "",
-      "rol": "Por confirmar",
-      "organizacion": "-",
-      "iniciales": "??",
-      "pendiente": true
-    },
-    {
-      "nombre": " Por confirmar",
-      "titulo": "",
-      "rol": "Por confirmar",
-      "organizacion": "-",
-      "iniciales": "??",
+      "iniciales": "?",
       "pendiente": true
     }
   ],
@@ -222,162 +239,301 @@
   ],
   "horarios": {
     "dia1": {
-      "fecha": "Miércoles 11",
-      "titulo": "Día 1 - Miércoles 11",
+      "fecha": "11 de Noviembre",
+      "titulo": "Día 1 - 11 de Noviembre",
       "actividades": [
         {
-          "hora": "09:00 - 09:30",
-          "titulo": "Inauguración",
-          "descripcion": "Apertura por Miguel Figueroa y Julio Godoy"
+          "hora": "08:30 - 09:00",
+          "titulo": "Acreditación",
+          "descripcion": ""
         },
         {
-          "hora": "10:15 - 10:45",
+          "hora": "09:00 - 09:10",
+          "titulo": "Apertura Congreso Electrónico 2026",
+          "descripcion": "Cristian Saavedra<br>Chair IEEE<br>RAS UdeC"
+        },
+        {
+          "hora": "09:10 - 09:20",
+          "titulo": "Inauguración ",
+          "descripcion": "Mario Rubén Medina<br>Jefe de Carrera Ingeniería <br>Civil Electrónica - UdeC"
+        },
+        {
+          "hora": "09:20 - 09:30",
+          "titulo": "Inauguración ",
+          "descripcion": "Julio Godoy<br>Profesor Advisor <br>IEEE RAS - UdeC"
+        },
+        {
+          "hora": "09:30 - 10:15",
           "titulo": "Charla 1",
-          "descripcion": "Miguel Figueroa, profesor titular UdeC"
+          "descripcion": "Miguel Figueroa<br>Profesor Titular<br>Departamento Ingeniería Eléctrica - UdeC"
         },
         {
-          "hora": "11:15 - 11:45",
-          "titulo": "Charla 2",
-          "descripcion": "Álvaro Alarcón, Director de Escuela de Ingeniería Civil en Automatización UBB"
+          "hora": "10:15 - 10:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:30 - 11:15",
+          "titulo": "El rol de la Electrónica en Sistemas  de Telecomunicaciones Cuánticas:   Una Conversación Más Allá de la  Difusión Científica",
+          "descripcion": "Álvaro Alarcón<br>Director de Escuela de <br>Ingeniería Civil en <br>Automatización UBB"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "11:15 - 11:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "11:30 - 11:45",
+          "titulo": "Coffee Break / Stands (?)",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "11:45 - 12:30",
+          "titulo": "Charla 3",
+          "descripcion": "Por definir (*)<br><br><b>Paralela:</b> Taller: \"La ingeniería resolviendo un <br>problema pedagógico<br>Plataformas didácticas asociadas<br> a redes de corrientes alternas\"<br><br>Aula por definir (*)<br><br><b>Taller:</b> René Alvarez<br>Ingeniero en Ejecución<br>Departamento Ingeniería Eléctrica - UdeC<br><br>Claudio Roa<br>Profesor Asociado<br>Departamento Ingeniería Eléctrica - UdeC"
+        },
+        {
+          "hora": "12:30 - 12:45",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": "<b>Paralela:</b> Taller: \"La ingeniería resolviendo un <br>problema pedagógico<br>Plataformas didácticas asociadas<br> a redes de corrientes alternas\"<br><br>Aula por definir (*)<br><br><b>Taller:</b> René Alvarez<br>Ingeniero en Ejecución<br>Departamento Ingeniería Eléctrica - UdeC<br><br>Claudio Roa<br>Profesor Asociado<br>Departamento Ingeniería Eléctrica - UdeC"
+        },
+        {
+          "hora": "12:45 - 13:30",
+          "titulo": "Charla 4",
+          "descripcion": "Por definir (*)"
+        },
+        {
+          "hora": "13:30 - 13:45",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": ""
+        },
+        {
+          "hora": "13:45 - 14:45",
+          "titulo": "Almuerzo / Stands (?)",
+          "descripcion": ""
+        },
+        {
+          "hora": "14:45 - 15:00",
+          "titulo": "Inicio Bloque Tarde",
+          "descripcion": "Cristian Saavedra<br>Chair IEEE<br>RAS UdeC"
+        },
+        {
+          "hora": "15:00 - 18:00",
+          "titulo": "Hackaton",
+          "descripcion": "Por definir (*)"
+        },
+        {
+          "hora": "15:00 - 18:00",
+          "titulo": "Recorrido UdeC",
+          "descripcion": "Por definir (*)"
+        },
+        {
+          "hora": "15:00 - 18:00",
+          "titulo": "Visita Empresa",
+          "descripcion": "Por definir (*)"
+        },
+        {
+          "hora": "18:00 - 18:15",
+          "titulo": "Cierre",
+          "descripcion": "Cristian Saavedra<br>Chair IEEE<br>RAS UdeC"
+        },
+        {
+          "hora": "18:15 - 18:15",
+          "titulo": "Cierre de jornada",
+          "descripcion": ""
         }
       ]
     },
     "dia2": {
-      "fecha": "Jueves 12",
-      "titulo": "Día 2 - Jueves 12",
+      "fecha": "12 de Noviembre",
+      "titulo": "Día 2 - 12 de Noviembre",
       "actividades": [
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "08:30 - 09:00",
+          "titulo": "Acreditación",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:00 - 09:15",
+          "titulo": "Abertura Segunda Jornada",
+          "descripcion": "Valentina Leviniere<br>Presidenta CAA Ing. <br>Civil Electrónica UdeC<br>"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:15 - 09:30",
+          "titulo": "Abertura",
+          "descripcion": "Juan Tapia<br>Director Departamento de<br>Ingeniería Eléctrica UdeC"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:30 - 10:15",
+          "titulo": "Charla 1",
+          "descripcion": "Joel Fuentes<br>Senior Compiler <br>Engineer en Intel Corporation "
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:15 - 10:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:30 - 11:15",
+          "titulo": "Charla 2",
+          "descripcion": "Santiago Quinsasamin<br>Analista de Sistemas de <br>Proyección y Tecnología de Cine<br><br><b>Paralela:</b> Taller; Por definir (*)"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "11:15 - 11:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": "<b>Paralela:</b> Taller; Por definir (*)"
+        },
+        {
+          "hora": "11:30 - 12:00",
+          "titulo": "Coffee Break / Stands",
+          "descripcion": ""
+        },
+        {
+          "hora": "12:00 - 13:30",
+          "titulo": "Presentación de Papers",
+          "descripcion": "<b>Paralela:</b> Papers"
+        },
+        {
+          "hora": "13:30 - 14:30",
+          "titulo": "Almuerzo",
+          "descripcion": ""
+        },
+        {
+          "hora": "14:30 - 14:45",
+          "titulo": "Inicio Bloque Tarde",
+          "descripcion": "Valentina Leviniere<br>Presidenta CAA Ing. <br>Civil Electrónica UdeC<br>"
+        },
+        {
+          "hora": "14:45 - 15:30",
+          "titulo": "Charla 3",
+          "descripcion": "Carlos Galvéz (*)<br>Ingeniero de Operación<br>y Mantenimiento -EBCO<br><br><b>Paralela:</b> Taller IEEE RAS UdeC<br><br><b>Taller:</b> IEEE RAS UdeC"
+        },
+        {
+          "hora": "15:30 - 15:45",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": "<b>Paralela:</b> Taller IEEE RAS UdeC<br><br><b>Taller:</b> IEEE RAS UdeC"
+        },
+        {
+          "hora": "15:45 - 16:30",
+          "titulo": "“Celda de combustible MCFC alimentada con  biogás como sistema de cogeneración de  energía no contaminante aplicable en Chile”",
+          "descripcion": "Lautaro Salazar<br>Profesor Titular<br>Departamento Ingeniería Eléctrica - UdeC<br><br><b>Paralela:</b> Taller IEEE RAS UdeC<br><br><b>Taller:</b> IEEE RAS UdeC"
+        },
+        {
+          "hora": "16:30 - 16:45",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": "<b>Paralela:</b> Taller IEEE RAS UdeC<br><br><b>Taller:</b> IEEE RAS UdeC"
+        },
+        {
+          "hora": "16:45 - 17:00",
+          "titulo": "Cierre",
+          "descripcion": "Valentina Leviniere<br>Presidenta CAA Ing. <br>Civil Electrónica UdeC<br>"
+        },
+        {
+          "hora": "16:00 - 17:00",
+          "titulo": "Cierre de jornada",
+          "descripcion": ""
         }
       ]
     },
     "dia3": {
-      "fecha": "Viernes 13",
-      "titulo": "Día 3 - Viernes 13",
+      "fecha": "13 de Noviembre",
+      "titulo": "Día 3 - 13 de Noviembre",
       "actividades": [
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "08:30 - 09:00",
+          "titulo": "Acreditación",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:00 - 09:15",
+          "titulo": "Apertura Tercera Jornada",
+          "descripcion": "Cristian Saavedra<br>Chair IEEE<br>RAS UdeC"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:15 - 09:30",
+          "titulo": "Apertura",
+          "descripcion": "Pablo Catalan<br>Decano FI UdeC"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "09:30 - 10:15",
+          "titulo": "Charla 1",
+          "descripcion": "Por definir (*)"
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:15 - 10:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": ""
         },
         {
-          "hora": "Por definir",
-          "titulo": "Por definir",
-          "descripcion": "Por definir"
+          "hora": "10:30 - 11:15",
+          "titulo": "Charla 2",
+          "descripcion": "Por definir (*)<br><br><b>Paralela:</b> Taller; Por definir (*)"
+        },
+        {
+          "hora": "11:15 - 11:30",
+          "titulo": "Preguntas / Reconocimiento",
+          "descripcion": "<b>Paralela:</b> Taller; Por definir (*)"
+        },
+        {
+          "hora": "11:30 - 12:00",
+          "titulo": "Actividad recreativa de cierre y premiación",
+          "descripcion": ""
+        },
+        {
+          "hora": "12:00 - 12:15",
+          "titulo": "Cierre Congreso Electrónico 2026",
+          "descripcion": "Valentina Leviniere<br>Presidenta CAA Ing. <br>Civil Electrónica UdeC"
+        },
+        {
+          "hora": "12:15 - 12:30",
+          "titulo": "Coffee Break / Pipsha",
+          "descripcion": ""
+        },
+        {
+          "hora": "12:30 - 12:30",
+          "titulo": "Cierre de congreso",
+          "descripcion": ""
         }
       ]
     }
   },
   "comisiones": [
-      {
-        "nombre": "Dir",
-        "miembros": [
-          {
-            "nombre": "Cristian Saavedra Vásquez",
-            "cargo": "Presidente Congreso Electrónica",
-            "organizacion": "IEEE RAS",
-            "iniciales": "CS"
-          },
-          {
-            "nombre": "Gonzalo Quilodrán",
-            "cargo": "Secretario Congreso Electrónica",
-            "organizacion": "IEEE RAS",
-            "iniciales": "GQ"
-          },
-          {
-            "nombre": "Angeles Ortega",
-            "cargo": "Tesorera Congreso Electrónica",
-            "organizacion": "Centro de Estudiantes de Electrónica",
-            "iniciales": "AO"
-          }
-        ]
-      },
-      {
-        "nombre": "Finanzas",
-        "miembros": []
-      },
-      {
-        "nombre": "Captacion",
-        "miembros" : []
-      },
-      {
-        "nombre": "rrss",
-        "miembros" : []
-      }
-    ],
-
+    {
+      "nombre": "Dir",
+      "miembros": [
+        {
+          "nombre": "Cristian Saavedra Vásquez",
+          "cargo": "Presidente Congreso Electrónica",
+          "organizacion": "IEEE RAS",
+          "iniciales": "CS"
+        },
+        {
+          "nombre": "Gonzalo Quilodrán",
+          "cargo": "Secretario Congreso Electrónica",
+          "organizacion": "IEEE RAS",
+          "iniciales": "GQ"
+        },
+        {
+          "nombre": "Angeles Ortega",
+          "cargo": "Tesorera Congreso Electrónica",
+          "organizacion": "Centro de Estudiantes de Electrónica",
+          "iniciales": "AO"
+        }
+      ]
+    },
+    {
+      "nombre": "Finanzas",
+      "miembros": []
+    },
+    {
+      "nombre": "Captacion",
+      "miembros": []
+    },
+    {
+      "nombre": "rrss",
+      "miembros": []
+    }
+  ],
   "categoriasAuspicio": [
     {
       "nombre": "Platino",
@@ -440,6 +596,24 @@
         "Reconocimiento oficial como auspiciador",
         "1 pase de cortesía"
       ]
+    }
+  ],
+  "talleristas": [
+    {
+      "nombre": "René Alvarez",
+      "titulo": "",
+      "rol": "Ingeniero en Ejecución (Día 1)",
+      "organizacion": "Departamento Ingeniería Eléctrica - UdeC",
+      "iniciales": "RA",
+      "pendiente": false
+    },
+    {
+      "nombre": "Claudio Roa",
+      "titulo": "",
+      "rol": "Profesor Asociado (Día 1)",
+      "organizacion": "Departamento Ingeniería Eléctrica - UdeC",
+      "iniciales": "CR",
+      "pendiente": false
     }
   ]
 }
