@@ -32,7 +32,12 @@
             box-sizing: border-box;
         }
 
-        html {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
             scroll-behavior: smooth;
         }
 
@@ -244,7 +249,8 @@
             position: fixed;
             top: 0;
             right: -100%;
-            width: 280px;
+            width: 80%;
+            max-width: 280px;
             height: 100vh;
             background: var(--navy);
             padding: 80px 30px;
@@ -354,8 +360,10 @@
         }
 
         .hero-logo-container {
-            width: 400px;
-            height: 700px;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            max-height: 70vh;
             margin: 0 auto 30px;
             animation: logoEnter 1s ease-out forwards;
             transform: scale(0);
@@ -1373,6 +1381,7 @@
 
         .pricing-table {
             width: 100%;
+            min-width: 600px;
             border-collapse: collapse;
             background: var(--glass);
             border-radius: 24px;
@@ -2050,7 +2059,14 @@
             .footer-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
+        .desktop-break {
+            flex-basis: 100%;
+            height: 0;
+            display: block;
+        }
+
         @media (max-width: 768px) {
+            .desktop-break { display: none; }
             .nav-links { display: none; }
             .hamburger { display: flex; }
 
@@ -2158,7 +2174,7 @@
         .directive-flip-container {
           perspective: 1500px;
           min-height: 320px;
-          flex: 0 1 320px;
+          flex: 1 1 280px;
           max-width: 350px;
       }
 
@@ -3466,7 +3482,7 @@
                     </div>
                 </div>`;
                 if (index === 1) {
-                    cardHtml += `<div style="flex-basis: 100%; height: 0; display: block;"></div>`;
+                    cardHtml += `<div class="desktop-break"></div>`;
                 }
                 return cardHtml;
             }).join('');
