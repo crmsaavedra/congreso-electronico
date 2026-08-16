@@ -150,27 +150,30 @@
     },
     {
       "nombre": "Álvaro Alarcón",
-      "titulo": "",
+      "titulo": "El rol de la Electrónica en Sistemas de Telecomunicaciones Cuánticas:  Una Conversación Más Allá de la Difusión Científica",
       "rol": "Director de Escuela Ing. Civil en Automatización (Día 1)",
       "organizacion": "Universidad del Bío-Bío (UBB)",
       "iniciales": "AA",
-      "pendiente": false
+      "pendiente": false,
+      "imagen":"images/imagenes_expositores/Alvaro_Alarcon.jpeg"
     },
     {
       "nombre": "Joel Fuentes",
-      "titulo": "",
+      "titulo": "Compiladores para aceleradores modernos",
       "rol": "Senior Compiler Engineer (Día 2)",
       "organizacion": "Intel Corporation",
       "iniciales": "JF",
-      "pendiente": false
+      "pendiente": false,
+      "imagen":"images/imagenes_expositores/Joel_Fuentes.jpeg"
     },
     {
       "nombre": "Santiago Quinsasamin",
-      "titulo": "",
+      "titulo": "Aplicación de Inteligencia Artificial y Gemelos Digitales para el Mantenimiento Predictivo de Sistemas de Proyección Cinematográficos.",
       "rol": "Analista de Sistemas de Proyección y Tecnología de Cine (Día 2)",
       "organizacion": "-",
       "iniciales": "SQ",
-      "pendiente": false
+      "pendiente": false,
+      "imagen": "images/imagenes_expositores/Santiago_Quinsasamin.jpeg"
     },
     {
       "nombre": "Carlos Galvéz",
@@ -308,7 +311,7 @@
         },
         {
           "hora": "10:30 - 11:15",
-          "titulo": "El rol de la Electrónica en Sistemas  de Telecomunicaciones Cuánticas:   Una Conversación Más Allá de la  Difusión Científica",
+          "titulo": "El rol de la Electrónica en Sistemas de Telecomunicaciones Cuánticas:  Una Conversación Más Allá de la Difusión Científica",
           "descripcion": "Álvaro Alarcón<br>Director de Escuela de <br>Ingeniería Civil en <br>Automatización UBB"
         },
         {
@@ -399,7 +402,7 @@
         },
         {
           "hora": "09:30 - 10:15",
-          "titulo": "Charla 1",
+          "titulo": "Compiladores para aceleradores modernos",
           "descripcion": "Joel Fuentes<br>Senior Compiler <br>Engineer en Intel Corporation "
         },
         {
@@ -411,6 +414,7 @@
           "hora": "10:30 - 11:15",
           "titulo": "Charla 2",
           "descripcion": "Santiago Quinsasamin<br>Analista de Sistemas de <br>Proyección y Tecnología de Cine<br><br><b>Paralela:</b> Taller; Por definir (*)"
+
         },
         {
           "hora": "11:15 - 11:30",

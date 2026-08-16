@@ -8,6 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!---->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.congresoelectronico.cl/">
+    <meta property="og:title" content="Congreso Electrónico 2026">
+    <meta property="og:description" content="Expertos de la industria, la academia y el mundo IEEE. ¡Únete al evento!">
+    <meta property="og:image" content="https://www.congresoelectronico.cl/images/og-banner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
     <style>
         :root {
             /* Dark Theme (Default) */
@@ -1182,6 +1192,7 @@
             margin: 0 auto 20px;
             background: linear-gradient(135deg, var(--blue), var(--navy-light));
             border-radius: 50%;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1190,6 +1201,13 @@
             font-weight: 700;
             color: var(--white);
             position: relative;
+        }
+        .speaker-avatar img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; 
+          display: block;
+          object-position: top;
         }
 
         .speaker-avatar::after {
@@ -3501,7 +3519,7 @@
                 const fullName = speaker.titulo ? `${speaker.titulo} ${speaker.nombre}` : speaker.nombre;
                 return `
                     <div class="speaker-card reveal ${pendingClass}" style="transition-delay: ${index * 0.1}s;">
-                        <div class="speaker-avatar">${speaker.iniciales}</div>
+                        <div class="speaker-avatar">${speaker.imagen ? `<img src="${speaker.imagen}" alt="${speaker.nombre}">` : speaker.iniciales}</div>
                         <h3>${speaker.nombre}</h3>
                         <p class="speaker-role">${speaker.rol}</p>
                         <p class="speaker-company">${speaker.organizacion}</p>
