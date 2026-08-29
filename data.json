@@ -42,7 +42,7 @@
       "nombre": "Cristian Saavedra",
       "cargo": "Presidente",
       "iniciales": "CS",
-      "foto": "",
+      "foto": "images/Directiva/Presi.HEIC",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
@@ -53,7 +53,7 @@
       "nombre": "Valentina Leviniere",
       "cargo": "Vice-presidenta",
       "iniciales": "VL",
-      "foto": "",
+      "foto": "images/Directiva/Vice.HEIC",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
@@ -64,7 +64,7 @@
       "nombre": "Felipe San Martín",
       "cargo": "Tesorero",
       "iniciales": "FS",
-      "foto": "",
+      "foto": "images/Directiva/Tesorero.HEIC",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
@@ -92,9 +92,9 @@
     {
       "id": "prevent2",
       "nombre": "Prevent 2",
-      "link": "https://forms.gle/8YmM9SnHMNgf47hF7",
+      "link": "https://forms.gle/kxh1r3oyADdUVyv68",
       "fechaInicio": "2026-06-01",
-      "fechaFin": "2026-08-15",
+      "fechaFin": "2026-09-30",
       "soldout": false,
       "descuento": "-35% descuento",
       "precios": {
@@ -109,8 +109,8 @@
     {
       "id": "prevent3",
       "nombre": "Prevent 3",
-      "fechaInicio": "2026-08-16",
-      "fechaFin": "2026-10-15",
+      "fechaInicio": "Por confirmar",
+      "fechaFin": "Por confirmar",
       "soldout": false,
       "descuento": "-20% descuento",
       "precios": {

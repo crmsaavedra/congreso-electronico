@@ -3561,8 +3561,11 @@
             if (soldout) return 'soldout';
 
             const now = new Date();
+            if (fechaInicio === 'Por confirmar' || fechaFin === 'Por confirmar') return 'upcoming';
             const start = new Date(fechaInicio);
             const end = new Date(fechaFin);
+            
+            if (isNaN(start) || isNaN(end)) return 'upcoming';
 
             if (now < start) return 'upcoming';
             if (now > end) return 'past';
