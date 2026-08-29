@@ -42,7 +42,7 @@
       "nombre": "Cristian Saavedra",
       "cargo": "Presidente",
       "iniciales": "CS",
-      "foto": "images/Directiva/Presi.HEIC",
+      "foto": "images/Directiva/Presi.jpg",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
@@ -53,7 +53,7 @@
       "nombre": "Valentina Leviniere",
       "cargo": "Vice-presidenta",
       "iniciales": "VL",
-      "foto": "images/Directiva/Vice.HEIC",
+      "foto": "images/Directiva/Vice.jpg",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
@@ -64,7 +64,7 @@
       "nombre": "Felipe San Martín",
       "cargo": "Tesorero",
       "iniciales": "FS",
-      "foto": "images/Directiva/Tesorero.HEIC",
+      "foto": "images/Directiva/Tesorero.jpg",
       "bio": {
         "lineasInvestigacion": [],
         "asignaturas": []
