@@ -1679,10 +1679,17 @@
           object-fit: cover;     
           object-position: top;    
         }
-        .directive-avatar img[src*="Directiva/"] {
-            object-position: center 65%;
+        .directive-avatar img[src*="Vice.jpg"],
+        .directive-avatar img[src*="Tesorero.jpg"] {
+            object-position: center 50%;
             transform: scale(2.5);
-            transform-origin: center 65%;
+            transform-origin: center 60%;
+        }
+        
+        .directive-avatar img[src*="Presi.jpg"] {
+            object-position: 60% 75%;
+            transform: scale(2.5);
+            transform-origin: 65% 75%;
         }
 
         .directive-avatar::after {
